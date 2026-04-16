@@ -4,10 +4,19 @@ Dynamic analysis of offshore pipeline installation (S-lay and J-lay)
 with vessel motion excitation and DNV ST-F101 code check.
 
 ## References
-- **Static solver**: Trapper, P.A. (2019), *Applied Ocean Research* 88, 48–62
-- **Dynamic solver**: Kim & Kim (2018), *Ships and Offshore Structures*
+- **Static solver**: Trapper, P.A. (2019), *Feasible numerical method for analysis of offshore pipeline in installation, Applied Ocean Research* 88, 48–62
+    - https://doi.org/10.1016/j.apor.2019.04.018
+    
+- **Dynamic solver**: Kim & Kim (2018), *An efficient linearised dynamic analysis method for structural safety design of J-lay and S-lay
+                                         pipeline installation Ships and Offshore Structures*
+    - https://doi.org/10.1080/17445302.2018.1493906
+      
 - **Code check**: DNV ST-F101 (2021), Submarine Pipeline Systems
-- **Adriatic spectrum**: Tabain (1997)
+
+- **Generalized-α Method**: Chung & Hulbert (1993), *A Time Integration Algorithm for Structural Dynamics With Improved Numerical Dissipation: The Generalized-α Method*
+    - https://doi.org/10.1115/1.2900803
+
+- **Adriatic spectrum**: Tabain, T. (1997), *Standard wind wave spectrum for the Adriatic Sea revisited (1977-1997). Brodogradnja* 45, 303-313
 
 
 ## Quick start
