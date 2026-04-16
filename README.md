@@ -4,6 +4,7 @@ Dynamic analysis of offshore pipeline installation (S-lay and J-lay)
 with vessel motion excitation and DNV ST-F101 code check.
 
 
+<img width="1400" height="600" alt="case_animation" src="https://github.com/user-attachments/assets/3588f0d9-76b0-4851-98af-988619602572" />
 
 
 ## References
