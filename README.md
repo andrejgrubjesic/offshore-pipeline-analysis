@@ -3,6 +3,9 @@
 Dynamic analysis of offshore pipeline installation (S-lay and J-lay)
 with vessel motion excitation and DNV ST-F101 code check.
 
+
+
+
 ## References
 - **Static solver**: Trapper, P.A. (2019), *Feasible numerical method for analysis of offshore pipeline in installation, Applied Ocean Research* 88, 48–62
     - https://doi.org/10.1016/j.apor.2019.04.018
