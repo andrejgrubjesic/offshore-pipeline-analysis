@@ -9,9 +9,6 @@ results/
 *.png
 *.npy
 
-# Data files (RAO matrices)
-data/
-
 # Virtual environment
 .venv/
 venv/
