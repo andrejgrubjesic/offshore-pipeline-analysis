@@ -9,25 +9,6 @@ with vessel motion excitation and DNV ST-F101 code check.
 - **Code check**: DNV ST-F101 (2021), Submarine Pipeline Systems
 - **Adriatic spectrum**: Tabain (1997)
 
----
-
-## Repository structure
-
-```
-pipeline/
-├── static_solver.py       # Trapper (2019) FDM catenary equilibrium
-├── wave_field.py          # Airy wave kinematics (regular / JONSWAP / Tabain)
-├── dynamic_solver.py      # Kim & Kim (2018) linearised FEM + Newmark
-├── vessel_rao.py          # 6-DOF vessel RAO + LOP motion functions
-├── rao_dynamic_solver.py  # Generalised-alpha integrator with RAO support excitation
-├── dnv_check.py           # DNV ST-F101 LCC combined loading criterion
-├── visualisation.py       # All plots and animation
-run_case.py                # ← EDIT THIS to run your analysis
-data/                      # Put A.txt B.txt C.txt M.txt omega.txt Fw.txt here
-results/                   # Output figures saved here
-```
-
----
 
 ## Quick start
 
@@ -51,15 +32,4 @@ python run_case.py
 | `dnv_check` | `DNVCapacities`, `compute_lcc()` | ST-F101 LCC check |
 | `visualisation` | `plot_results()`, `plot_lcc()`, etc. | All figures |
 
-## Dependencies
 
-```
-numpy
-scipy
-matplotlib
-```
-
-Install with:
-```bash
-pip install numpy scipy matplotlib
-```
